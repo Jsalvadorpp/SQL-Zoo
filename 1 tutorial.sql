@@ -65,3 +65,4 @@ SELECT capital, name
 SELECT name , REPLACE(capital,name,'') as extension
   FROM world
   WHERE capital LIKE concat(name,'_%')
+  
